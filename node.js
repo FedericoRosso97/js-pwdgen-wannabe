@@ -3,7 +3,7 @@ const userSurName=prompt('cognome utente');
 const favoriteColor=prompt('colore preferito');
 
 
-let password= userName+userSurName+favoriteColor+21;
+const password= userName+userSurName+favoriteColor+21;
 
 document.getElementById('form').innerHTML=password;
 
